@@ -71,9 +71,10 @@ module.exports = (env, argv) => {
             }),
             new CopyPlugin({
                 patterns: [
-                    {from: "README.md", to: "./dist/"},
+                    {from: "README*.md", to: "./dist/"},
                     {from: "plugin.json", to: "./dist/"},
                     {from: "icon.png", to: "./dist/"},
+                    {from: "preview.png", to: "./dist/"},
                     {from: "src/i18n/", to: "./dist/i18n/"},
                 ],
             }),

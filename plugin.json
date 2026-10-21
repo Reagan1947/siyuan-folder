@@ -16,9 +16,10 @@
     "zh-CN": "在思源笔记中插入文件夹, 文件将保存至 assets 文件夹中, 并自动纳入思源笔记同步逻辑中。"
   },
   "icon": "icon.png",
+  "preview": "preview.png",
   "readme": {
     "default": "README.md",
-    "zh-CN": "README.md"
+    "zh-CN": "README.zh-CN.md"
   },
   "keywords": [
     "folder",
