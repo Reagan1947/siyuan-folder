@@ -1,0 +1,28 @@
+{
+  "name": "siyuan-folder",
+  "author": "John",
+  "url": "",
+  "version": "0.1.0",
+  "minAppVersion": "3.8.3",
+  "backends": ["all"],
+  "frontends": ["all"],
+  "disabledInPublish": true,
+  "displayName": {
+    "default": "Folder",
+    "zh-CN": "文件夹"
+  },
+  "description": {
+    "default": "Insert a folder in SiYuan. Files are saved in the assets folder and included in SiYuan sync",
+    "zh-CN": "在思源笔记中插入文件夹, 文件将保存至 assets 文件夹中, 并自动纳入思源笔记同步逻辑中。"
+  },
+  "icon": "icon.png",
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.md"
+  },
+  "keywords": [
+    "folder",
+    "workspace",
+    "文件夹"
+  ]
+}
